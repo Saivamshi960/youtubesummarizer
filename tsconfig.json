@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "target": "es2020",
+    "module": "commonjs",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    // Change rootDir to src
+    "rootDir": "./src",
+    // Change outDir to dist
+    "outDir": "./dist",
+    "typeRoots": [
+      "./node_modules/@types",
+      "./types"
+    ]
+  },
+  // Update the include path
+  "include": [
+    "src/**/*.ts",
+    "types/**/*.d.ts"
+  ]
+}
